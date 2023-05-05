@@ -1,0 +1,481 @@
+
+/* .write{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+} */
+.final{
+    background-color: #11192e;
+    color: white;
+}
+.write {
+   background-color: black;
+   display:flex; 
+   align-items:center; 
+   padding:10px;
+   height: 35px;
+}
+nav{
+    flex:1;
+    text-align:right;
+}
+nav ul{
+   display:inline-block;
+   list-style-type:none;
+}
+nav ul li{
+    display:inline-block;
+    margin-right:20px;
+}
+.heading{
+    background-color: aliceblue;
+}
+.heading h1{
+    margin:0px;
+    text-align: center;
+    font-style: italic;
+    font-size: xxx-large;
+    color: green;
+}
+nav ul li a{
+    display: inline-block;
+    color: white;
+    padding: 8px;
+    margin: 10px 0;
+    background-color: green;
+    border-radius: 30px;
+    transition: background 0.7s;
+}
+nav ul li a:hover{
+    background:#563434;
+}
+.items-display{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    /* background: radial-gradient(#fff,#ffd6d6); */
+
+}
+.items-display1 {
+    transition: transform 0.5s;
+}
+.items-display1:hover{
+      transform:translateY(15px);
+}
+.para{
+    text-align: center;
+}
+#s1{
+    font-style: italic;
+    font-size: -webkit-xxx-large;
+    text-align: center;
+}
+#s2{
+    display:inline-block;
+    margin: 10px 0;
+    padding: 8px;
+    font-style: italic;
+    font-size: large;
+    color: white;
+    border-radius: 30px;
+    background-color: red;
+    border-style: solid;
+    border-color: black;
+    transition: background 0.7s;
+} 
+
+#s2:hover{
+  background:#563434;
+}
+#s2 a{
+    color: white;
+}
+
+.items{
+    display:flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#s3{text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-style: oblique;
+    font-size: xx-large;
+    height: 20px;
+}
+#i1,#i2,#i3,#i4,#i5{
+    transition: transform 0.9s;
+    margin: 20px;
+}
+.k1{
+    align-items: center;
+}
+#i1:hover{
+    transform: translateY(16px);
+}
+#i2:hover{
+    transform: translateY(16px);
+}
+#i3:hover{
+    transform: translateY(16px);
+}
+#i4:hover{
+    transform: translateY(16px);
+}
+#i5:hover{
+    transform: translateY(16px);
+}
+.ok{
+    display: flex;
+    justify-content: space-around;
+    font-style: italic;
+    font-size: larger;
+}
+.details{
+    /* margin: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: black;
+    font-style: italic;
+    font-size: larger;
+}
+#l2{
+    font-size: medium;
+    color: rgb(130 134 147);
+}
+#l3{
+   text-align: center; 
+   font-size: medium;
+   color: rgb(130 134 147);
+
+}
+#l3 a{
+   color: white;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    flex: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #11192e;
+}
+.head{
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+#e1{
+    font-size: xxx-large;
+}
+#e2{
+    font-size: xx-large;
+}
+#itemdetails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#shop1{
+    font-size: xx-large;
+    font-style: italic;
+    height: 10px;
+}
+#shop2{
+    height: 5px;
+    font-size: xx-large;
+}
+#shop3{
+    font-size: large;
+    border-radius: 30px;
+    color: white;
+    background-color: green;
+}
+#t1{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 10px solid;
+    border-color: wheat;
+    /* margin: 60px; */
+    margin: 300px 0px;
+}
+.f1{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 10px;
+}
+#t2{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 10px solid;
+    border-color: wheat;
+    margin: 400px 0px;
+}
+/* .n1{
+    height: 100px;
+} */
+.makingmenu{
+    background-image: url(https://www.cypressgreen.in/blog/wp-content/uploads/2021/03/food.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 50%;
+    background-size: cover;
+    width: 1000px;
+}
+.set{
+    background-color:#61b39a42;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.photo1{
+  mix-blend-mode: multiply;
+}
+.photo2{
+    mix-blend-mode: multiply;
+}
+.men{
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+    height: 40px;
+    /* color: white; */
+    background-color:aliceblue;
+    margin:0px;
+    color: green;
+}
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #11192e;
+    color: white;
+    font-style: italic;
+    font-size: large;
+}
+.section2 a{
+    color: white;
+}
+.mr{
+    margin: 100px 0px;
+}
+.af{
+    margin: 100px 0px;
+}
+.ev{
+    margin:100px 0px;
+}
+.add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+   font-style: italic;
+}
+.cart h4{
+    font-size: 40px;
+    margin: 0px;
+    height: 20px;
+}
+#q2{
+    font-size: xx-large;
+    margin: 1em 0px 10px 0px;
+}
+#q1{
+    width: 35px;
+    height: 30px;
+}
+.box{
+    display: inline-block;
+    background-color: green;
+    border-radius: 30px;
+    /* color: white; */
+    width: 100px;
+    text-align: center;
+    /* color: white; */
+}
+.box p a{
+    color: white;
+    font-size: larger;
+}
+#q3{
+    font-size: 25px;
+    margin: 0px 0px 5px 0px;
+}
+.d1{
+    width: 500px;
+    font-size: large;
+}
+.sub-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.v1 h2{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+.long{
+    background-color: #11192e;
+    color: white;
+}
+.About{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-style: italic;
+}
+.A2{
+    width: 500px;
+    font-size: 20px;
+}
+.chef{
+    font-style:italic;
+    text-align: center;
+    font-size: xxx-large;
+}
+#S1{
+    border-radius: 50%;
+}
+.foom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-style: italic;
+}
+.text{
+    position: relative;
+    border-bottom: 2px solid #adadad
+}
+.text input{
+    width: 100%;
+    background: none;
+    padding: 0 5px;
+    height: 40px;
+    border: none;
+}
+.text label{
+    position:absolute;
+    top: 50%;
+    left:5px;
+    color: #fffafa00;
+    transform:translateY(-50%);
+    font-size:16px;
+    pointer-events:none;
+}
+.F2{
+    width:400px;
+    background:white;
+    border-radius:10px;
+    color: black;
+    background-color: blueviolet;
+}
+.G1{
+    display:inline-block;
+    width: 400px;
+}
+.G1 input{
+    background-color: aquamarine;
+    width: 400px;
+}
+.para1{
+    font-size: xx-large;
+    font-style: italic;
+    display: inline-block;
+    text-align: center;
+}
+.m2{
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+
+
+ 
+
+
+
+
+

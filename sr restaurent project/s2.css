@@ -1,0 +1,30 @@
+.k12{
+    text-align: center;
+}
+.k13{
+    text-align: center;
+}
+#s11{
+    display:inline-block;
+    margin: 10px 0;
+    padding: 8px;
+    font-style: italic;
+    font-size: large;
+    color: white;
+    border-radius: 30px;
+    background-color: red;
+    border-style: solid;
+    border-color: black;
+    transition: background 0.7s;
+} 
+#s11:hover{
+  background:#563434;
+}
+#s11 a{
+    color: white;
+    background-color: red;
+}
+*{
+    background-color: black;
+    margin: 50px;
+}
